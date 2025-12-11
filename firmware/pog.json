@@ -1,0 +1,126 @@
+{
+    "id": "01KC480K8BJGC3TD64FHRNGQFH",
+    "name": "picopad v1",
+    "manufacturer": "",
+    "description": "",
+    "tags": [],
+    "controller": "pi-pico",
+    "keyboardType": "normal",
+    "wiringMethod": "direct",
+    "diodeDirection": "",
+    "rows": 0,
+    "cols": 0,
+    "pins": 4,
+    "rowPins": [],
+    "colPins": [],
+    "directPins": [
+        "6",
+        "7",
+        "8",
+        "9"
+    ],
+    "encoders": [],
+    "layouts": [],
+    "keys": [
+        {
+            "x": 0,
+            "y": 0,
+            "idx": 0
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "idx": 1
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "idx": 2
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "idx": 3
+        }
+    ],
+    "keymap": [
+        [
+            "KC.VOLU",
+            "KC.VOLD",
+            "KC.MUTE",
+            "KC.TO(1)"
+        ],
+        [
+            "KC.MACRO(Press(KC.LCTL), Tap(KC.C), Release(KC.LCTL))",
+            "KC.MACRO(Press(KC.LCTRL), Tap(KC.V), Release(KC.LCTRL))",
+            "KC.MACRO(Press(KC.LCTRL), Tap(KC.X), Release(KC.LCTRL))",
+            "KC.TO(2)"
+        ],
+        [
+            "KC.MACRO(Press(KC.LCTRL), Tap(KC.Z), Release(KC.LCTRL))",
+            "KC.MACRO(Press(KC.LCTRL), Tap(KC.Y), Release(KC.LCTRL))",
+            "KC.MACRO(Press(KC.LCTRL), Tap(KC.A), Release(KC.LCTRL))",
+            "KC.TO(0)"
+        ]
+    ],
+    "encoderKeymap": [
+        [],
+        [],
+        []
+    ],
+    "layers": [
+        {
+            "name": "vol",
+            "color": "#0ca508"
+        },
+        {
+            "name": "copy",
+            "color": "#259eb9"
+        },
+        {
+            "name": "undo",
+            "color": "#f28c18"
+        }
+    ],
+    "split": false,
+    "splitPinA": "",
+    "splitPinB": "",
+    "splitSide": "left",
+    "vbusPin": "VBUS_SENSE",
+    "splitUsePio": true,
+    "splitFlip": false,
+    "splitUartFlip": false,
+    "coordMap": [
+        [
+            "000",
+            "001",
+            "002",
+            "003"
+        ]
+    ],
+    "pinPrefix": "gp",
+    "coordMapSetup": false,
+    "rgbPin": "",
+    "rgbNumLeds": 0,
+    "rgbOptions": {
+        "animationMode": 0,
+        "hueDefault": 0,
+        "satDefault": 255,
+        "valDefault": 255,
+        "animationSpeed": 1,
+        "breatheCenter": 1,
+        "knightEffectLength": 3
+    },
+    "kbFeatures": [
+        "basic",
+        "serial",
+        "oneshot",
+        "tapdance",
+        "holdtap",
+        "mousekeys",
+        "combos",
+        "macros"
+    ],
+    "flashingMode": "automatic",
+    "lastEdited": "2025-12-11 10:11"
+}
