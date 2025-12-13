@@ -115,7 +115,7 @@ picopad_v1/
 - **4× Outemu mechanical switches** (plate-mounted)  
 - **USB-C port** soldered directly to test pads (TP1, TP2, TP3, Pin 40)  
 - **3D-printed custom case** for compact and clean layout  
-- **KMK firmware** generated via POG  
+- **KMK firmware** generated via picopad-config 
 - **Single key layer-cycle system** (Layer 0 → 1 → 2 → 0)
 
 ---
