@@ -1,44 +1,47 @@
-# Picopad v1
+# 🚀 Picopad v1
 
-Picopad v1 is a custom 4-key macropad built using the Raspberry Pi Pico.  
-It uses **POG** to generate KMK firmware and manage layers, macros, and pin assignments.
+Picopad v1 is a custom **4-key macropad** built using the **Raspberry Pi Pico**.  
+It supports multi-layer keymaps, macros, Windows shortcuts, URL launching, and application execution — all configurable through a **custom web-based configurator**.
 
-The device supports multiple layers, a layer-cycle key, and Outemu mechanical switches mounted in a compact 3D-printed case with USB-C input.
+The device features a **single-key layer cycle system**, **Outemu mechanical switches**, and a compact **3D-printed case** with **USB-C** input.
 
 ---
 
-## 🧰 Software Used — POG
+## 🌐 Picopad Configurator
 
-POG is a visual firmware generator for KMK.  
-It allows you to configure:
+Picopad v1 uses **Picopad Config**, a web-based configuration tool that provides the **same core functionality as POG**, while being tailored specifically for Picopad v1.
 
-- Pins & switch layout  
-- Layers and macros  
-- Hold/tap functions  
-- Layer switching  
-- USB HID behaviors  
+✨ What you can do:
 
-You don’t need to edit Python manually — POG generates the full KMK firmware automatically.
+- 🎛️ Configure key mappings & pin layout  
+- 🧱 Create and manage multiple layers  
+- ⌨️ Assign macros and shortcuts  
+- 🪟 Use pre-listed **Windows shortcuts**  
+- 🌍 Launch websites by pasting URLs  
+- 📂 Launch applications using Windows **Run commands**  
+- 🧩 Generate KMK firmware  
+- ⚡ **Flash firmware directly to the Raspberry Pi Pico**  
+- 🧠 Configure everything visually — no manual Python editing  
 
-🔗 **POG Webpage:**  
-https://pog.heaper.de
+🔗 **Picopad Configurator:**  
+👉 https://picopad-config.web.app/
 
 ---
 
 ## 🔌 Pin Mapping (Raspberry Pi Pico)
 
-Picopad v1 uses four GPIO pins for the switch matrix:
+Picopad v1 uses four GPIO pins for its switches:
 
-| Key | Pico GPIO Pin |
-|-----|---------------|
+| 🔘 Key | 🧩 Pico GPIO |
+|------|-------------|
 | Key 1 | GPIO 6 |
 | Key 2 | GPIO 7 |
 | Key 3 | GPIO 8 |
 | Key 4 | GPIO 9 |
 
-All keys share a common **GND** connection.
+All switches share a common **GND** connection.
 
-### Wiring Diagram (Simple)
+### 🧵 Wiring Diagram (Simple)
 
 GPIO 6 ──┐
 GPIO 7 ──┤── switches → GND
