@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="images/banner.png" alt="Picopad v1 Banner" width="100%">
+</p>
+
+
+
+
+
 # 🚀 Picopad v1
 
 Picopad v1 is a custom **4-key macropad** built using the **Raspberry Pi Pico**.  
